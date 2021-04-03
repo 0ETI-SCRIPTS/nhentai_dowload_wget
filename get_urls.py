@@ -28,7 +28,7 @@ def get_total_search_pages_from_base(base_search_page):
         return int(total_search_pages)
 
     except Exception:
-        return 0
+        return 1
 
 
 def get_doujin_info_on_search_page(search_page_url):
